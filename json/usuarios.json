@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "senha": "senha123",
+        "tipo": "admin"
+    },
+    "henry": {
+        "senha": "senha123",
+        "tipo": "admin"
+    }
+}

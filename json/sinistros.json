@@ -1,0 +1,14 @@
+[
+    {
+        "numero_apolice": 1,
+        "descricao": "",
+        "data": "09/02/1005",
+        "status": "fechado"
+    },
+    {
+        "numero_apolice": 2,
+        "descricao": "",
+        "data": "08/09/2024",
+        "status": "aberto"
+    }
+]
