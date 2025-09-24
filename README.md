@@ -1,22 +1,67 @@
 # Sistema de Seguros
 
-## Instruções de Uso
+## Participantes do grupo
 
-Este sistema permite gerenciar clientes, seguros, apólices e sinistros, com autenticação, controle de permissões, relatórios e auditoria. Toda a persistência é feita via banco SQLite, eliminando o uso de arquivos JSON.
+561681, 561864, 561411, 562675, 563217
 
-### Como executar
+## Instruções de Instalação e Execução
 
-1. Certifique-se de ter o Python 3 instalado.
-2. Execute o script de criação das tabelas (apenas na primeira vez ou após limpeza do banco):
+### Requisitos
+
+- Python 3.x (recomendado Python 3.6+)
+- Não é necessário instalar bibliotecas externas (apenas bibliotecas padrão do Python)
+
+### Instalação e Inicialização
+
+1. Clone ou baixe este repositório.
+2. (Opcional) Crie um ambiente virtual Python.
+3. Execute o script de criação das tabelas (apenas na primeira vez ou após limpeza do banco):
 	```
 	python database/db_setup.py
 	```
-3. Inicie o sistema:
+4. Inicie o sistema:
 	```
 	python main.py
 	```
-4. No primeiro acesso, será solicitado login ou cadastro. O primeiro usuário criado é admin por padrão.
-5. Navegue pelo menu para acessar as funcionalidades conforme seu perfil.
+5. No primeiro acesso, será solicitado login ou cadastro. O primeiro usuário criado é admin por padrão.
+6. Navegue pelo menu para acessar as funcionalidades conforme seu perfil.
+
+---
+
+Este sistema permite gerenciar clientes, seguros, apólices e sinistros, com autenticação, controle de permissões, relatórios e auditoria. Toda a persistência é feita via banco SQLite, eliminando o uso de arquivos JSON.
+
+
+## Migração de Dados
+
+Se desejar migrar dados dos arquivos JSON antigos para o banco SQLite, execute:
+```
+python functions/migrar_json.py
+```
+
+## Localização dos Arquivos
+
+- **Banco de dados:** `sistema_seguros.db` (raiz do projeto)
+- **Logs de auditoria:** `logs/auditoria.log`
+- **Relatórios exportados:** pasta `export/`
+
+---
+## Exemplos rápidos de uso dos principais fluxos
+
+### Emissão de Apólice
+1. Faça login como admin.
+2. Cadastre um cliente e um seguro.
+3. Escolha a opção "Emitir Apólice" no menu e preencha os dados solicitados.
+
+### Registro de Sinistro
+1. Faça login como admin.
+2. Escolha a opção "Registrar Sinistro" e informe o número da apólice e detalhes do evento.
+
+### Geração de Relatório
+1. No menu, escolha "Gerar Relatório".
+2. Selecione o tipo de relatório desejado (clientes, apólices, sinistros, etc.).
+3. O arquivo será exportado para a pasta `export/` no formato CSV ou JSON.
+
+---
 
 ### Funcionalidades principais
 

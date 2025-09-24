@@ -60,5 +60,20 @@ def criar_tabelas():
     conn.commit()
     conn.close()
 
+def atualizar_schema():
+    """Executa comandos de atualização do schema, se necessário."""
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    # Exemplo: adicionar uma coluna se não existir
+    try:
+        cursor.execute("ALTER TABLE clientes ADD COLUMN novo_campo TEXT")
+    except sqlite3.OperationalError:
+        # Coluna já existe, ignora o erro
+        pass
+    # Adicione outros comandos de migração aqui
+    conn.commit()
+    conn.close()
+
 if __name__ == '__main__':
     criar_tabelas()
+    # atualizar_schema()  # Descomente se/quando precisar atualizar o schema
