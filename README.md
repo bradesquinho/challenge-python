@@ -1,9 +1,11 @@
 # Sistema de Seguros
 
 ## Participantes do grupo
+
 	```
 	561681, 561864, 561411, 562675, 563217
 	```
+	
 ## Instruções de Instalação e Execução
 
 ### Requisitos
