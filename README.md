@@ -89,12 +89,5 @@ python functions/migrar_json.py
 - `utils.py`: Funções auxiliares de validação.
 - Banco de dados: `sistema_seguros.db` (criado automaticamente).
 
-## Requisitos para Execução
-
-- Python 3.x (recomendado Python 3.6+)
-- Apenas bibliotecas padrão do Python (nenhuma dependência externa)
-
-O sistema é totalmente operado via terminal/linha de comando.
-
 ---
 Desenvolvido para facilitar a gestão de seguros com validações, controle de permissões e auditoria robusta, sem dependências externas e com persistência confiável em banco de dados.
