@@ -567,5 +567,5 @@ O projeto atende plenamente os requisitos da Sprint 4 em termos de **arquitetura
 ---
 
 **Documento gerado em**: 27/10/2025  
-**Responsável**: Grupo Sprint 4  
+**Responsável**: Grupo Bradesquinhos - Sprint 4  
 **Versão**: 1.0
