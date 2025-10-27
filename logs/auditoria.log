@@ -1,1 +1,1145 @@
 2025-09-23 23:19:43,749 [INFO] usuario=admin operacao=cadastrar_cliente id=7
+2025-10-26 16:34:43,937 [INFO] package: mysql.connector.plugins
+2025-10-26 16:34:43,937 [INFO] plugin_name: caching_sha2_password
+2025-10-26 16:34:43,938 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-10-26 16:36:38 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'Henry Gimenez da Costa', 'cpf': '48332101859'}
+2025-10-26 16:36:38,932 [INFO] usuario=admin operacao=cadastrar_cliente id=1
+2025-10-26 16:38:50 | admin_teste | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'Teste Cliente 2', 'cpf': '12345678901'}
+2025-10-26 18:21:35 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 18:21:35 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 18:21:35 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 18:21:35 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 18:21:35 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:21:35 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:21:35 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:21:35 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:21:35 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 18:21:35 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 18:21:35 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 18:21:35 | admin | criar | cliente | Status: sucesso
+2025-10-26 18:21:35 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:21:35 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:21:35 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 18:21:35 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 18:25:45 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 18:32:12 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 18:32:12 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 18:32:12 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 18:32:12 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 18:32:12 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:32:12 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:32:12 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:32:12 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:32:12 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 18:32:12 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 18:32:12 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 18:32:13 | admin | criar | cliente | Status: sucesso
+2025-10-26 18:32:13 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:32:13 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:32:13 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 18:32:13 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 18:32:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:32:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:32:18 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {}}
+2025-10-26 18:32:18 | operador_test | emitir_apolice | apolice | Status: erro | Detalhes: {'erro': 'Falha ao emitir apólice'}
+2025-10-26 18:32:19 | admin | emitir_apolice | apolice | Status: erro | Detalhes: {'erro': 'Falha ao emitir apólice'}
+2025-10-26 18:32:19 | analista_test | registrar_sinistro | sinistro | Status: erro | Detalhes: {'erro': 'Falha ao registrar sinistro'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:32:19 | operador | emitir_apolice | apolice | Status: erro | Detalhes: {'erro': 'Falha ao emitir apólice'}
+2025-10-26 18:32:19 | analista | registrar_sinistro | sinistro | Status: erro | Detalhes: {'erro': 'Falha ao registrar sinistro'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:32:19 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'Falha ao criar cliente'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 18:32:19 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 18:47:49 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 18:47:49 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 18:47:49 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 18:47:49 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 18:47:49 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:47:49 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:47:49 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:47:49 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:47:49 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 18:47:49 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 18:47:49 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 18:47:49 | admin | criar | cliente | Status: sucesso
+2025-10-26 18:47:49 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:47:49 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:47:49 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 18:47:49 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 18:47:54 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:47:54 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:47:54 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 18:47:55 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:47:55 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': datetime.date(1990, 1, 15), 'endereco': 'Rua Teste, 123'}}
+2025-10-26 18:47:55 | operador_test | emitir_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:47:55 | admin | emitir_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:47:55 | analista_test | registrar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 18:47:55 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:47:55 | operador | emitir_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:47:56 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'Falha ao criar cliente'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 18:47:56 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 18:49:11 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 18:49:11 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 18:49:11 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 18:49:11 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 18:49:11 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:49:11 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:49:11 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:49:11 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:49:11 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 18:49:11 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 18:49:11 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 18:49:11 | admin | criar | cliente | Status: sucesso
+2025-10-26 18:49:11 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:49:11 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:49:11 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 18:49:11 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 18:49:16 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:49:16 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:49:16 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 18:49:16 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:49:16 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': datetime.date(1990, 1, 15), 'endereco': 'Rua Teste, 123'}}
+2025-10-26 18:49:16 | operador_test | emitir_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:49:16 | admin | emitir_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:49:16 | admin | cancelar_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 18:49:16.887155'}
+2025-10-26 18:49:17 | analista_test | registrar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 18:49:17 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:49:17 | operador | emitir_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:49:17 | analista | registrar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 18:49:17 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 18:49:17 | financeiro | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:49:17 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'Falha ao criar cliente'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 18:49:17 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 18:51:29 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 18:51:29 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 18:51:29 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 18:51:29 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 18:51:29 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:51:29 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:51:29 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:51:29 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:51:29 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 18:51:29 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 18:51:29 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 18:51:29 | admin | criar | cliente | Status: sucesso
+2025-10-26 18:51:29 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:51:29 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:51:29 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 18:51:29 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 18:51:34 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:51:34 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:51:34 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 18:51:34 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:51:34 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-26 18:51:35 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:51:35 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:51:35 | admin | cancelar_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 18:51:35.308636'}
+2025-10-26 18:51:35 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 18:51:35 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 18:51:35 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:51:35 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:51:35 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 18:51:35 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 18:51:35 | financeiro | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO'}
+2025-10-26 18:51:35 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:51:35 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'Falha ao criar cliente'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 18:51:36 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 18:52:03 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 18:52:03 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 18:52:03 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 18:52:03 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 18:52:03 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:52:03 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:52:03 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:52:03 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:52:03 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 18:52:03 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 18:52:03 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 18:52:03 | admin | criar | cliente | Status: sucesso
+2025-10-26 18:52:03 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 18:52:03 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 18:52:03 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 18:52:03 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 18:52:08 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:52:08 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:52:08 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 18:52:08 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:52:08 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-26 18:52:09 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:52:09 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:52:09 | admin | cancelar_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 18:52:09.314554'}
+2025-10-26 18:52:09 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 18:52:09 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 18:52:09 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:52:09 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 18:52:09 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 18:52:09 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 18:52:09 | financeiro | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 18:52:10 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'Falha ao criar cliente'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 18:52:10 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 19:00:50 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 19:00:50 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 19:00:50 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 19:00:50 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 19:00:50 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:00:50 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:00:50 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:00:50 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:00:50 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 19:00:50 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 19:00:50 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 19:00:50 | admin | criar | cliente | Status: sucesso
+2025-10-26 19:00:50 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:00:50 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:00:50 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 19:00:50 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 19:00:55 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:00:55 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:00:55 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 19:00:55 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:00:55 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-26 19:00:56 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:00:56 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:00:56 | admin | cancelar_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 19:00:56.270590'}
+2025-10-26 19:00:56 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:00:56 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 19:00:56 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:00:56 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:00:56 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:00:56 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 19:00:56 | financeiro | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO'}
+2025-10-26 19:00:56 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:00:56 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'Falha ao criar cliente'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 19:00:57 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 19:01:22 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 19:01:22 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 19:01:22 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 19:01:22 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 19:01:22 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:01:22 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:01:22 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:01:22 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:01:22 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 19:01:22 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 19:01:22 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 19:01:22 | admin | criar | cliente | Status: sucesso
+2025-10-26 19:01:22 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:01:22 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:01:22 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 19:01:22 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 19:01:27 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:01:27 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:01:27 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 19:01:28 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:01:28 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-26 19:01:28 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:01:28 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:01:28 | admin | cancelar_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 19:01:28.411762'}
+2025-10-26 19:01:28 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:01:28 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 19:01:28 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:01:28 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:01:28 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:01:28 | analista | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO'}
+2025-10-26 19:01:28 | financeiro | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:01:29 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'Falha ao criar cliente'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 19:01:29 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 19:03:33 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:03:42 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26'}
+2025-10-26 19:03:42 | admin | cancelar_apolice | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 19:03:42.480867'}
+2025-10-26 19:07:35 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 19:07:35 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 19:07:35 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 19:07:35 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 19:07:35 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:07:35 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:07:35 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:07:35 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:07:35 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 19:07:35 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 19:07:35 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 19:07:35 | admin | criar | cliente | Status: sucesso
+2025-10-26 19:07:35 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:07:35 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:07:35 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 19:07:35 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 19:07:40 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:07:40 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:07:40 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 19:07:40 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:07:40 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-26 19:07:41 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:07:41 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:07:41 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 19:07:41.334907'}
+2025-10-26 19:07:41 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:07:41 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-26 19:07:41 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:07:41 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:07:41 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:07:41 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-26 19:07:41 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 19:07:42 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 19:08:09 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 19:08:09 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 19:08:09 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 19:08:09 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 19:08:09 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:08:09 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:08:09 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:08:09 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:08:09 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 19:08:09 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 19:08:09 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 19:08:09 | admin | criar | cliente | Status: sucesso
+2025-10-26 19:08:09 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:08:09 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:08:09 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 19:08:09 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 19:08:14 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:08:14 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:08:14 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 19:08:15 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:08:15 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-26 19:08:15 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:08:15 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:08:15 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 19:08:15.345550'}
+2025-10-26 19:08:15 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:08:15 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-26 19:08:15 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:08:15 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:08:15 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:08:15 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-26 19:08:15 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-26 19:08:15 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 19:08:16 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 19:22:08 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-26 19:22:08 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-26 19:22:08 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-26 19:22:08 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-26 19:22:08 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:22:08 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:22:08 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:22:08 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:22:08 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-26 19:22:08 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-26 19:22:08 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-26 19:22:09 | admin | criar | cliente | Status: sucesso
+2025-10-26 19:22:09 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-26 19:22:09 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-26 19:22:09 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-26 19:22:09 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-26 19:22:14 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:22:14 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:22:14 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-26 19:22:14 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:22:14 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nascimento': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-26 19:22:14 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:22:14 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:22:14 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-26 19:22:14.995023'}
+2025-10-26 19:22:15 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:22:15 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:22:15 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '12345678901', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-26', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-26 19:22:15 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-26 19:22:15 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-26 19:22:15 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-26 19:22:15 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-26 19:35:31,084 [INFO] package: mysql.connector.plugins
+2025-10-26 19:35:31,084 [INFO] plugin_name: caching_sha2_password
+2025-10-26 19:35:31,085 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-10-27 15:14:27,003 [INFO] package: mysql.connector.plugins
+2025-10-27 15:14:27,011 [INFO] plugin_name: caching_sha2_password
+2025-10-27 15:14:27,011 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-10-27 15:16:00,253 [INFO] package: mysql.connector.plugins
+2025-10-27 15:16:00,253 [INFO] plugin_name: caching_sha2_password
+2025-10-27 15:16:00,253 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-10-27 15:17:02 | admin | criar | seguro | Status: erro | Detalhes: {'erro': 'Falha ao criar seguro'}
+2025-10-27 15:17:21 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'Vida', 'cliente_id': 1}
+2025-10-27 15:17:21,490 [INFO] usuario=admin operacao=cadastrar_seguro id=1
+2025-10-27 15:18:31,896 [INFO] package: mysql.connector.plugins
+2025-10-27 15:18:31,897 [INFO] plugin_name: caching_sha2_password
+2025-10-27 15:18:31,897 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-10-27 15:18:38 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'Henry Gimenez da Costa', 'cliente_cpf': '48332101859', 'seguro_tipo': 'Vida', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 15:18:38,701 [INFO] usuario=admin operacao=emitir_apolice id=1
+2025-10-27 15:19:09 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Teste', 'data_ocorrencia': '2025-10-27'}
+2025-10-27 15:19:09,932 [INFO] usuario=admin operacao=registrar_sinistro id=1
+2025-10-27 15:28:49,567 [INFO] package: mysql.connector.plugins
+2025-10-27 15:28:49,567 [INFO] plugin_name: caching_sha2_password
+2025-10-27 15:28:49,567 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-10-27 15:29:18 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['nome', 'cpf', 'telefone', 'email', 'data_nasc', 'endereco']}
+2025-10-27 15:29:18,649 [INFO] usuario=admin operacao=alterar_dados_cliente id=1
+2025-10-27 15:29:55 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Teste', 'data_cancelamento': '2025-10-27 15:29:55.419680'}
+2025-10-27 15:29:55,449 [INFO] usuario=admin operacao=cancelar_apolice id=1
+2025-10-27 15:30:09 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'fechado', 'valor_aprovado': None, 'observacoes': 'teste'}
+2025-10-27 15:30:09,947 [INFO] usuario=admin operacao=atualizar_status_sinistro id=1
+2025-10-27 15:32:37 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:32:37 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:32:37 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:32:37 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:32:37 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:37 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:37 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:32:37 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:37 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:32:37 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:32:37 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:32:38 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:32:38 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:38 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:32:38 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:32:38 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:32:54 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:32:54 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:32:54 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:32:54 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:32:54 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:54 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:54 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:32:54 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:54 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:32:54 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:32:55 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:32:55 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:32:55 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:32:55 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:32:55 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:32:55 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:34:04 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:34:04 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:34:04 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:34:04 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:34:04 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:34:04 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:34:04 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:34:04 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:34:04 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:34:04 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:34:04 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:34:05 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:34:05 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:34:05 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:34:05 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:34:05 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:34:12 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:34:13 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:34:13 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 15:34:13 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:34:13 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nasc': None, 'endereco': 'Rua Teste, 123'}}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 15:34:14 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 15:41:37 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:41:37 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:41:37 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:41:37 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:41:37 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:41:37 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:41:37 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:41:37 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:41:37 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:41:37 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:41:37 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:41:37 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:41:37 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:41:37 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:41:37 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:41:37 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:41:43 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:41:43 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:41:43 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 15:41:43 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:41:43 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 15:41:44 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 15:41:45 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 15:42:20 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:20 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:42:20 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:42:20 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:42:20 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:20 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:20 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:42:20 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:20 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:42:20 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:42:20 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:42:20 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:42:20 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:20 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:42:20 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:42:20 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:42:26 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:26 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:26 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 15:42:27 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:27 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 15:42:28 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 15:42:40 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:40 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:42:40 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:42:40 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:42:40 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:40 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:40 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:42:40 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:40 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:42:40 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:42:40 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:42:40 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:42:40 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:42:40 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:42:40 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:42:40 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:42:46 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:46 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:46 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 15:42:46 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:46 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '12345678901', 'telefone': '11999999999', 'email': 'joao@email.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 15:42:47 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345678901'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 15:42:48 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 15:45:42 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:45:42 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:45:42 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:45:42 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:45:42 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:45:42 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:45:42 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:45:42 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:45:42 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:45:42 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:45:42 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:45:42 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:45:42 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:45:42 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:45:42 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:45:42 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:48:51 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 15:48:51 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 15:48:51 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 15:48:51 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 15:48:51 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:48:51 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:48:51 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:48:51 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:48:51 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 15:48:51 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 15:48:51 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 15:48:51 | admin | criar | cliente | Status: sucesso
+2025-10-27 15:48:51 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 15:48:51 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 15:48:51 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 15:48:51 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 15:48:57 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '69573345911'}
+2025-10-27 15:48:57 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '30569969413'}
+2025-10-27 15:48:57 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 15:48:57 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '50500754944'}
+2025-10-27 15:48:57 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '50500754944', 'telefone': '11778439364', 'email': 'test_544484be997b4642b6ca079e5b3d1d9c@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 15:48:58 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '28453698448', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 15:48:58 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '04594974488', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 15:48:58 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 15:48:58.346339'}
+2025-10-27 15:48:58 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 15:48:58 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 15:48:58 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '51212653478'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '68464579445'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 15:48:59 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:01:24 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:01:24 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:01:24 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:01:24 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:01:24 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:01:24 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:01:24 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:01:24 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:01:24 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:01:24 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:01:24 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:01:24 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:01:24 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:01:24 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:01:24 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:01:24 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:01:30 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '04161554789'}
+2025-10-27 16:01:30 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '10508843446'}
+2025-10-27 16:01:30 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:01:30 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '26442291754'}
+2025-10-27 16:01:30 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '26442291754', 'telefone': '11670914641', 'email': 'test_f5ada1650205467bb56aa65bd15be3ee@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:01:30 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '90324604788', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:01:31 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '93978306446', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:01:31 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:01:31.157527'}
+2025-10-27 16:01:31 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:01:31 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:01:31 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '50392848625'}
+2025-10-27 16:01:31 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '82171746120'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:01:32 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:02:28 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:02:28 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:02:28 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:02:28 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:02:28 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:02:28 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:02:28 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:02:28 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:02:28 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:02:28 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:02:28 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:02:28 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:02:28 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:02:28 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:02:28 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:02:28 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:02:35 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '31524974064'}
+2025-10-27 16:02:35 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '73047945357'}
+2025-10-27 16:02:35 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:02:35 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '16351061157'}
+2025-10-27 16:02:35 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '16351061157', 'telefone': '11239084384', 'email': 'test_132053325a414bd2b2942c2cf7fe9036@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:02:35 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '02535632374', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:02:35 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '25151737437', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:02:35 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:02:35.758247'}
+2025-10-27 16:02:35 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:02:36 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '89236384353'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '10028869854'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:02:36 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:06:00 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:06:00 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:06:00 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:06:00 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:06:00 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:00 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:00 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:06:00 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:00 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:06:00 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:06:00 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:06:00 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:06:00 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:00 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:06:00 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:06:00 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:06:06 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '95671830747'}
+2025-10-27 16:06:06 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '31274082929'}
+2025-10-27 16:06:06 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:06:07 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '25792070491'}
+2025-10-27 16:06:07 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '25792070491', 'telefone': '11740724419', 'email': 'test_004d56f9dbfb45048c82a07a8d4d48f1@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:06:07 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '57940432058', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:06:07 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '25617044068', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:06:07 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:06:07.351222'}
+2025-10-27 16:06:07 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:06:07 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:06:07 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '67279741874'}
+2025-10-27 16:06:07 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '67279741874', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:06:07 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:06:07 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-27 16:06:07 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '10414455307'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:06:08 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:06:40 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:06:40 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:06:40 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:06:40 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:06:40 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:40 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:40 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:06:40 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:40 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:06:40 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:06:40 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:06:40 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:06:40 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:06:40 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:06:40 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:06:40 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:06:45 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '03310422486'}
+2025-10-27 16:06:46 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '74311974243'}
+2025-10-27 16:06:46 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:06:46 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '77120372444'}
+2025-10-27 16:06:46 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '77120372444', 'telefone': '11857879844', 'email': 'test_e4a7a28e520b4e839360121bd6c0c99c@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:06:46 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '09415749806', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:06:46 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '93618492066', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:06:46 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:06:46.623520'}
+2025-10-27 16:06:46 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:06:46 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '53018514227'}
+2025-10-27 16:06:47 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '53018514227', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:06:47 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:06:47 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-27 16:06:47 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '43852459430'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:06:47 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:17:21 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '27577693846'}
+2025-10-27 16:17:21 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '03403045942'}
+2025-10-27 16:17:21 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '67368783493'}
+2025-10-27 16:17:22 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'AUTO', 'cliente_id': 1}
+2025-10-27 16:17:23 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '56564443791'}
+2025-10-27 16:18:58 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '13983487429'}
+2025-10-27 16:18:58 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '83421984427'}
+2025-10-27 16:18:59 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '18379063438'}
+2025-10-27 16:18:59 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'AUTO', 'cliente_id': 1}
+2025-10-27 16:18:59 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '46811561341', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:18:59 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '87283795941', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:18:59 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Não informado', 'data_cancelamento': '2025-10-27 16:18:59.871230'}
+2025-10-27 16:19:00 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '46708445910', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:00 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:00 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '70211714471', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:00 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:00 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'em_analise', 'valor_aprovado': None, 'observacoes': 'Análise iniciada'}
+2025-10-27 16:19:00 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '72406029041'}
+2025-10-27 16:19:11 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:19:11 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:19:11 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:19:11 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:19:11 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:11 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:11 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:19:11 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:11 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:19:11 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:19:11 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:19:11 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:19:11 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:11 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:19:11 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:19:11 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:19:16 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '44343246414'}
+2025-10-27 16:19:17 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '86145448255'}
+2025-10-27 16:19:17 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:19:17 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '36930018049'}
+2025-10-27 16:19:17 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '36930018049', 'telefone': '11508823472', 'email': 'test_f5d8b22e2e9d4cbc99a34cde295aa6df@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:19:17 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '34184548493', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:19:17 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '43109047028', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:19:17 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:19:17.779370'}
+2025-10-27 16:19:17 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:18 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '67302252460'}
+2025-10-27 16:19:18 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '67302252460', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:19:18 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:18 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-27 16:19:18 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '25960294663'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:19:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '71975904597'}
+2025-10-27 16:19:19 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '95636858042'}
+2025-10-27 16:19:19 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '50079943816'}
+2025-10-27 16:19:19 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'AUTO', 'cliente_id': 1}
+2025-10-27 16:19:19 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '73706142201', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:20 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '74220420808', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:20 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Não informado', 'data_cancelamento': '2025-10-27 16:19:20.144552'}
+2025-10-27 16:19:20 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '11127609458', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:20 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:20 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '25716449758', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:20 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:20 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'em_analise', 'valor_aprovado': None, 'observacoes': 'Análise iniciada'}
+2025-10-27 16:19:20 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '97628461749'}
+2025-10-27 16:19:30 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:19:30 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:19:30 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:19:30 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:19:30 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:30 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:30 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:19:30 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:30 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:19:30 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:19:30 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:19:30 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:19:30 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:19:30 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:19:30 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:19:30 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:19:36 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '50102819618'}
+2025-10-27 16:19:36 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '88718920489'}
+2025-10-27 16:19:36 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:19:36 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '16308855401'}
+2025-10-27 16:19:36 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '16308855401', 'telefone': '11469316436', 'email': 'test_c575259fbc624beb872eb6a724fd3161@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:19:36 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '97199801904', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:19:36 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '29836457281', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:19:36 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:19:36.941178'}
+2025-10-27 16:19:37 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:37 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '08037057424'}
+2025-10-27 16:19:37 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '08037057424', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:19:37 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:37 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-27 16:19:37 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '82795064438'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:19:37 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:19:38 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '09624064576'}
+2025-10-27 16:19:38 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '82236036744'}
+2025-10-27 16:19:38 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '41354640587'}
+2025-10-27 16:19:38 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'AUTO', 'cliente_id': 1}
+2025-10-27 16:19:39 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '08175344328', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:39 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '99684155940', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:39 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Não informado', 'data_cancelamento': '2025-10-27 16:19:39.472570'}
+2025-10-27 16:19:39 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '89748349817', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:39 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:39 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '86452115574', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:19:39 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:19:39 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'em_analise', 'valor_aprovado': None, 'observacoes': 'Análise iniciada'}
+2025-10-27 16:19:40 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12409929624'}
+2025-10-27 16:22:13 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '68912748450', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:22:13 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '34948012241', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:22:14 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '63217574448', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:22:14 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:22:14 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '32286585704', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:22:14 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:23:50 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:23:50 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:23:50 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:23:50 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:23:50 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:23:50 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:23:50 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:23:50 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:23:50 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:23:50 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:23:50 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:23:50 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:23:50 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:23:50 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:23:50 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:23:50 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:23:55 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '53190224189'}
+2025-10-27 16:23:56 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '70114244298'}
+2025-10-27 16:23:56 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:23:56 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '53769345898'}
+2025-10-27 16:23:56 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '53769345898', 'telefone': '11927730384', 'email': 'test_8127bf27a2ba486cb117fe00647e7b2a@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:23:56 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '63723479648', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:23:56 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '33390224740', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:23:56 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:23:56.700665'}
+2025-10-27 16:23:56 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:23:57 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '90173024804'}
+2025-10-27 16:23:57 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '90173024804', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:23:57 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:23:57 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-27 16:23:57 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '06997459597'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:23:57 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '36149984232'}
+2025-10-27 16:23:58 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '41536816264'}
+2025-10-27 16:23:58 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '49639274089'}
+2025-10-27 16:23:58 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'AUTO', 'cliente_id': 1}
+2025-10-27 16:23:58 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '52140854293', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:23:59 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '28199516543', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:23:59 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Não informado', 'data_cancelamento': '2025-10-27 16:23:59.116892'}
+2025-10-27 16:23:59 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '31230288465', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:23:59 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:23:59 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '79857338449', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:23:59 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:23:59 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'em_analise', 'valor_aprovado': None, 'observacoes': 'Análise iniciada'}
+2025-10-27 16:23:59 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '89570334279'}
+2025-10-27 16:24:11 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:24:11 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:24:11 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:24:11 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:24:11 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:24:11 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:24:11 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:24:12 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:24:12 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:24:12 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:24:12 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:24:12 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:24:12 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:24:12 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:24:12 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:24:12 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:24:18 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '98956346749'}
+2025-10-27 16:24:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '40484954018'}
+2025-10-27 16:24:18 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:24:18 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '80635570401'}
+2025-10-27 16:24:18 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '80635570401', 'telefone': '11271322631', 'email': 'test_9541b81f2db4427fbc0c39abb9bce5fc@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:24:19 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '19717642949', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:24:19 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '26654897914', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:24:19 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:24:19.337525'}
+2025-10-27 16:24:19 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:24:19 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:24:19 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '38701453900'}
+2025-10-27 16:24:19 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '38701453900', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:24:19 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:24:19 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-27 16:24:19 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '63700432897'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '57685734855'}
+2025-10-27 16:24:20 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '72339734738'}
+2025-10-27 16:24:21 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '45726024439'}
+2025-10-27 16:24:21 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'AUTO', 'cliente_id': 1}
+2025-10-27 16:24:21 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '14140414974', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:24:22 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '45789454097', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:24:22 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Não informado', 'data_cancelamento': '2025-10-27 16:24:22.035085'}
+2025-10-27 16:24:22 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '48379456447', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:24:22 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:24:22 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '94555225674', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:24:22 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:24:22 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'em_analise', 'valor_aprovado': None, 'observacoes': 'Análise iniciada'}
+2025-10-27 16:24:22 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '41417245385'}
+2025-10-27 16:25:57 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João Silva', 'cpf': '12345678901'}
+2025-10-27 16:25:57 | user0 | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'teste': 'log 0'}
+2025-10-27 16:25:57 | user1 | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'teste': 'log 1'}
+2025-10-27 16:25:57 | user2 | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'teste': 'log 2'}
+2025-10-27 16:25:57 | admin1 | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:25:57 | admin1 | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:25:57 | admin2 | deletar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:25:57 | admin | criar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:25:57 | admin | criar | apolice | ID: 1 | Status: sucesso
+2025-10-27 16:25:57 | admin | criar | apolice | ID: 2 | Status: sucesso
+2025-10-27 16:25:57 | admin | criar | cliente | Status: erro | Detalhes: {'erro': 'CPF já cadastrado'}
+2025-10-27 16:25:58 | admin | criar | cliente | Status: sucesso
+2025-10-27 16:25:58 | admin | atualizar | cliente | ID: 1 | Status: sucesso
+2025-10-27 16:25:58 | admin | criar | cliente | ID: 2 | Status: sucesso
+2025-10-27 16:25:58 | admin | atualizar | cliente | ID: 3 | Status: sucesso
+2025-10-27 16:25:58 | admin | criar | cliente | ID: 4 | Status: sucesso
+2025-10-27 16:26:04 | admin_test | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '13857534149'}
+2025-10-27 16:26:04 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '41971641647'}
+2025-10-27 16:26:04 | admin | atualizar | cliente | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['email', 'telefone']}
+2025-10-27 16:26:04 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '45417238222'}
+2025-10-27 16:26:04 | admin | deletar | cliente | ID: 1 | Status: sucesso | Detalhes: {'cliente_deletado': {'id': 1, 'nome': 'João da Silva', 'cpf': '45417238222', 'telefone': '11611880211', 'email': 'test_7ec7983e1c03455ebbb400ea9bc56da1@example.com', 'data_nasc': '1990-01-15', 'endereco': 'Rua Teste, 123'}}
+2025-10-27 16:26:04 | operador_test | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '54447664939', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:26:04 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '07896727469', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:26:04 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Cliente solicitou cancelamento', 'data_cancelamento': '2025-10-27 16:26:04.808118'}
+2025-10-27 16:26:04 | analista_test | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão traseira no cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:26:05 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 2500.0, 'observacoes': 'Aprovado após análise técnica'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '06845566004'}
+2025-10-27 16:26:05 | operador | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '06845566004', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': 1200.0, 'data_inicio': '2025-01-01', 'data_fim': '2026-01-01'}
+2025-10-27 16:26:05 | analista | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 1, 'descricao_resumida': 'Colisão', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:26:05 | analista | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'APROVADO', 'valor_aprovado': 4500.0, 'observacoes': 'Aprovado conforme análise'}
+2025-10-27 16:26:05 | financeiro | atualizar_status | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['status', 'valor_aprovado', 'apolice_id'], 'novo_status': 'PAGO', 'valor_aprovado': 4500.0, 'observacoes': 'Pagamento efetuado'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '46480704974'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670000'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 2 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670001'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 3 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670002'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 4 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670003'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 5 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670004'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 6 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670005'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 7 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670006'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 8 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670007'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 9 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670008'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 10 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '12345670009'}
+2025-10-27 16:26:05 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '61155899495'}
+2025-10-27 16:26:06 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '10461047648'}
+2025-10-27 16:26:06 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '59065432543'}
+2025-10-27 16:26:06 | admin | criar | seguro | ID: 1 | Status: sucesso | Detalhes: {'tipo': 'AUTO', 'cliente_id': 1}
+2025-10-27 16:26:07 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '03107543010', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:26:07 | admin | emitir | apolice | ID: 1 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '72417158054', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:26:07 | admin | cancelar | apolice | ID: 1 | Status: sucesso | Detalhes: {'motivo': 'Não informado', 'data_cancelamento': '2025-10-27 16:26:07.478556'}
+2025-10-27 16:26:07 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '32411424444', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:26:07 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:26:07 | admin | emitir | apolice | ID: 2 | Status: sucesso | Detalhes: {'cliente_nome': 'João da Silva', 'cliente_cpf': '29765314299', 'seguro_tipo': 'AUTO', 'data_emissao': '2025-10-27', 'valor_premio': None, 'data_inicio': '', 'data_fim': ''}
+2025-10-27 16:26:07 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
+2025-10-27 16:26:07 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'em_analise', 'valor_aprovado': None, 'observacoes': 'Análise iniciada'}
+2025-10-27 16:26:08 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '05149494481'}

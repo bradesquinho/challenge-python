@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 class Apolice:
     def __init__(self, numero, cliente_cpf, tipo_seguro, dados_seguro, valor_mensal):
         self.numero = numero
