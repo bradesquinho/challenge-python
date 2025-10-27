@@ -1,4 +1,5 @@
 from datetime import datetime
+import getpass
 
 # Sprint 4 - Persistência Híbrida (MySQL + MongoDB)
 from functions.dao_mysql import ApoliceDAO, ClienteDAO, SeguroDAO, SinistroDAO, UsuarioDAO
@@ -287,7 +288,7 @@ class SistemaSeguros:
             if self.usuario_dao.ler_por_username(usuario):
                 print("Usuário já existe. Tente outro.")
                 continue
-            senha = input("Digite a senha: ").strip()
+            senha = getpass.getpass("Digite a senha: ").strip()
             if not senha:
                 print("Senha não pode ser vazia.")
                 continue
@@ -303,7 +304,7 @@ class SistemaSeguros:
         while True:
             print("=== Login ===")
             usuario = input("Usuário: ").strip()
-            senha = input("Senha: ").strip()
+            senha = getpass.getpass("Senha: ").strip()
             user = self.usuario_dao.ler_por_username(usuario)
             if user and user["senha"] == senha:
                 self.usuario_atual = usuario

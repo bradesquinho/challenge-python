@@ -1143,3 +1143,6 @@
 2025-10-27 16:26:07 | admin | registrar | sinistro | ID: 1 | Status: sucesso | Detalhes: {'apolice_id': 2, 'descricao_resumida': 'Colisão traseira em cruzamento', 'data_ocorrencia': '2025-06-15'}
 2025-10-27 16:26:07 | admin | atualizar_sinistro | sinistro | ID: 1 | Status: sucesso | Detalhes: {'campos_alterados': ['id', 'apolice_id', 'data_ocorrencia', 'descricao', 'status', 'status_anterior'], 'novo_status': 'em_analise', 'valor_aprovado': None, 'observacoes': 'Análise iniciada'}
 2025-10-27 16:26:08 | admin | criar | cliente | ID: 1 | Status: sucesso | Detalhes: {'nome': 'João da Silva', 'cpf': '05149494481'}
+2025-10-27 16:50:14,391 [INFO] package: mysql.connector.plugins
+2025-10-27 16:50:14,392 [INFO] plugin_name: caching_sha2_password
+2025-10-27 16:50:14,392 [INFO] AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
