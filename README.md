@@ -70,7 +70,8 @@ pip install -r requirements.txt
 - `mysql-connector-python`: Conexão com MySQL
 - `pymongo`: Conexão com MongoDB
 - `pytest` e `pytest-cov`: Testes automatizados
-- `black`, `flake8`, `isort`: Padronização de código
+- `black`, `ruff`, `isort`: Padronização de código
+- `python-dotenv`: Gerenciamento de variáveis de ambiente
 
 ### 4. Configurar Bancos de Dados
 
@@ -146,17 +147,6 @@ python main.py
 
 ---
 
-## Migração de Dados (Opcional)
-
-Se você possui dados antigos em arquivos JSON ou SQLite:
-
-```bash
-# Migrar de JSON para MySQL
-python functions/migrar_json.py
-```
-
----
-
 ## Localização dos Arquivos
 
 - **Banco MySQL**: Configurado via variáveis de ambiente
@@ -210,14 +200,12 @@ challenge-python/
 │   ├── apolice.py                # Modelo Apólice
 │   ├── sinistro.py               # Modelo Sinistro
 │   ├── logger.py                 # Logger arquivo
-│   ├── exporta_relatorios.py     # Geração de relatórios
-│   └── migrar_json.py            # Migração de dados antigos
+│   └── exporta_relatorios.py     # Geração de relatórios
 ├── utils/
 │   └── utils.py                  # Funções auxiliares
 ├── logs/
 │   └── auditoria.log             # Logs em arquivo (backup)
-├── export/                        # Relatórios exportados
-└── json/                          # Dados antigos (opcional)
+└── export/                        # Relatórios exportados
 ```
 
 ---
@@ -237,7 +225,7 @@ O projeto utiliza **pytest** como framework de testes, com suíte completa cobri
 
 **Persistência MySQL** (`test_mysql_persistence.py`):
 - ✅ CRUD completo de Clientes
-- ✅ CRUD completo de Seguros (incluindo JSON)
+- ✅ CRUD completo de Seguros (com campo detalhes em JSON)
 - ✅ CRUD completo de Apólices
 - ✅ CRUD completo de Sinistros
 - ✅ CRUD completo de Usuários
@@ -665,9 +653,9 @@ Todas as operações são registradas com:
 ### Limitações Atuais
 
 - Interface apenas via CLI (linha de comando)
-- Autenticação básica sem criptografia de senha avançada
+- Autenticação básica sem criptografia de senha avançada (senhas ocultas com getpass)
 - Sem suporte a anexos de arquivos binários em sinistros
-- Relatórios limitados a CSV e JSON
+- Relatórios exportados em formato CSV
 
 ### Próximos Passos Sugeridos
 
